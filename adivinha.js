@@ -4,7 +4,7 @@ var vidas = 10;
 var numeroDeTentativas = 0;
 var lifeEmote = ["💓", "💓", "💗", "🤍", "🤍", "🤍", "💚", "💚", "💚", "💚"];
 var humorEmote = ["😱", "😳", "😬", "😩", "😶", "😐", "🙃", "😊", "😄", "🤓"];
-console.log(numeroSorteado)
+
 
 var rl = readline.createInterface({
     input: process.stdin,
@@ -13,7 +13,7 @@ var rl = readline.createInterface({
 console.log("===============================ADIVINHA?=====================================")
 console.log("=============================  ¯\_(ツ)_/¯  ===================================\n")
 console.log("Este programa gera um número aleatório maior do que 1 e menor do que 100.\nTente adivinhá-lo com até 10 tentativas.\n")
-console.log("========================== DIGITE 0 PARA SAIR ===============================")
+
 console.log("=============================================================================")
 display();
 
